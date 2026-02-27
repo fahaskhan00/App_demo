@@ -15,8 +15,6 @@ class _GalleryScreenState extends State<GalleryScreen> {
   final DBHelper dbHelper = DBHelper();
   List<Map<String, dynamic>> photos = [];
 
-  
-
   @override
   void initState() {
     super.initState(); 
